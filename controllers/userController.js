@@ -134,6 +134,7 @@ module.exports = userController;
     Lines 31-36: The createUser() will POST a single user.
         - It's using the User schema to create a user based on the data
         in the request body.
+        - .then() if the user is created, respond with the data as a JSON object.
         - 
 
 */
