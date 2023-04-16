@@ -3,7 +3,7 @@ const { Schema, model } = require("mongoose");
 const userSchema = new Schema(
   {
     username: {
-      type: 4,
+      type: String,
       required: true,
       unique: true,
       trim: true,
