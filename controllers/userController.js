@@ -38,7 +38,7 @@ const userController = {
   },
 
   updateUser(req, res) {
-    User.findOneandUpdate(
+    User.findOneAndUpdate(
       {
         _id: req.params.userId,
       },
